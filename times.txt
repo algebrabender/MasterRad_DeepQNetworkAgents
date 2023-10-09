@@ -1,0 +1,11 @@
+DQN_agent_v4 1500 22mins
+DQN_agent_v4 1500 22mins
+DQN_agent_NoFS_v4 1500 56mins
+DQN_agent_v5 1500 18mins
+
+DDQN_agent_v4 1500 25mins
+DDQN_agent_Det_v4 1500 23mins
+DDQN_agent_NoFS_v4 1500 65mins
+DDQN_agent_v5 1500 23mins
+
+DQN_agent_v4 4500 67mins
