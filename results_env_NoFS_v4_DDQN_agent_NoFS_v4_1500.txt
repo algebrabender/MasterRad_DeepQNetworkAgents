@@ -1,0 +1,5 @@
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v4 | Num of Episodes: 1500 | Iteration: 1 | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v4 | Num of Episodes: 1500 | Iteration: 2 | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v4 | Num of Episodes: 1500 | Iteration: 3 | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v4 | Num of Episodes: 1500 | Iteration: 4 | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v4 | Num of Episodes: 1500 | Iteration: 5 | Score: 270.0
