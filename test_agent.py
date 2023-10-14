@@ -25,5 +25,5 @@ def play(env, agent, n_of_times, env_name, agent_name):
         
         for i in range (0, n_of_times):
             score = test(env, agent)
-            f.write('Env: {} | Agent: {} | Num of Episodes: 1500 | Iteration: {} | Score: {}\n'.format(env_name, agent_name, i+1, score))
-            print('Env: {} | Agent: {} | Num of Episodes: 1500 | Iteration: {} | Score: {}'.format(env_name, agent_name, i+1, score))
+            f.write('Env: {} | Agent: {} | Iteration: {} | Score: {}\n'.format(env_name, agent_name, i+1, score))
+            print('Env: {} | Agent: {} | Iteration: {} | Score: {}'.format(env_name, agent_name, i+1, score))

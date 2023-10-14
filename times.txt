@@ -15,5 +15,8 @@ DQN_agent_v5 4500 53mins
 
 DDQN_agent_v4 4500 89mins
 DDQN_agent_Det_v4 4500 72mins
-DDQN_agent_NoFS_v4 4500 ??
+DDQN_agent_NoFS_v4 4500 185mins
 DDQN_agent_v5 4500 59mins
+
+DQN_agent_Det_v4 22500 332mins
+DDQN_agent_Det_v4 22500 343mins

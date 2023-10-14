@@ -1,0 +1,1 @@
+venv\Scripts\activate & python main.py train 22500 DQNv4Det & python main.py train 22500 DDQNv4Det
