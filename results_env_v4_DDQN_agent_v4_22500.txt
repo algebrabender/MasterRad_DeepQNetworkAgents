@@ -1,0 +1,5 @@
+Env: env_v4 | Agent: DDQN_agent_v4 | Iteration: 1 | Score: 285.0
+Env: env_v4 | Agent: DDQN_agent_v4 | Iteration: 2 | Score: 285.0
+Env: env_v4 | Agent: DDQN_agent_v4 | Iteration: 3 | Score: 285.0
+Env: env_v4 | Agent: DDQN_agent_v4 | Iteration: 4 | Score: 285.0
+Env: env_v4 | Agent: DDQN_agent_v4 | Iteration: 5 | Score: 285.0
