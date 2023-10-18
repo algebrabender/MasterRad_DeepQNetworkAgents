@@ -1,0 +1,5 @@
+Env: env_v4 | Agent: DQN_agent_v4 | Num of Episodes: 4500 | Iteration: 1 | Score: 210.0
+Env: env_v4 | Agent: DQN_agent_v4 | Num of Episodes: 4500 | Iteration: 2 | Score: 235.0
+Env: env_v4 | Agent: DQN_agent_v4 | Num of Episodes: 4500 | Iteration: 3 | Score: 210.0
+Env: env_v4 | Agent: DQN_agent_v4 | Num of Episodes: 4500 | Iteration: 4 | Score: 410.0
+Env: env_v4 | Agent: DQN_agent_v4 | Num of Episodes: 4500 | Iteration: 5 | Score: 210.0
