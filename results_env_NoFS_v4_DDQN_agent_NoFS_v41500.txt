@@ -1,0 +1,10 @@
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 1 | Iteration Duration: 43.33s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 2 | Iteration Duration: 46.03s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 3 | Iteration Duration: 46.1s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 4 | Iteration Duration: 46.54s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 5 | Iteration Duration: 46.31s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 6 | Iteration Duration: 46.52s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 7 | Iteration Duration: 46.45s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 8 | Iteration Duration: 46.67s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 9 | Iteration Duration: 46.68s | Score: 270.0
+Env: env_NoFS_v4 | Agent: DDQN_agent_NoFS_v41500 | Iteration: 10 | Iteration Duration: 46.68s | Score: 270.0

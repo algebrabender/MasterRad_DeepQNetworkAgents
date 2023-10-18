@@ -107,38 +107,38 @@ if (test):
         env_v4 = train_agent.make_env('SpaceInvaders-v4', True)
         DQN_agent_v4 = DQNAgent(INPUT_SHAPE, env_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
         DQN_agent_v4.load_model(episodes, 'DQN_agent_v4')
-        play(env_v4, DQN_agent_v4, 5, 'env_v4', 'DQN_agent_v4')
+        play(env_v4, DQN_agent_v4, 10, 'env_v4', 'DQN_agent_v4{}'.format(episodes))
 
         env_Det_v4 = train_agent.make_env('SpaceInvadersDeterministic-v4', True)
         DQN_agent_Det_v4 = DQNAgent(INPUT_SHAPE, env_Det_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
         DQN_agent_Det_v4.load_model(episodes, 'DQN_agent_Det_v4')
-        play(env_Det_v4, DQN_agent_Det_v4, 5, 'env_Det_v4', 'DQN_agent_Det_v4')
+        play(env_Det_v4, DQN_agent_Det_v4, 10, 'env_Det_v4', 'DQN_agent_Det_v4{}'.format(episodes))
 
         env_NoFS_v4 = train_agent.make_env('SpaceInvadersNoFrameskip-v4', True)
         DQN_agent_NoFS_v4 = DQNAgent(INPUT_SHAPE, env_NoFS_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
         DQN_agent_NoFS_v4.load_model(episodes, 'DQN_agent_NoFS_v4')
-        play(env_NoFS_v4, DQN_agent_NoFS_v4, 5, 'env_NoFS_v4', 'DQN_agent_NoFS_v4')
+        play(env_NoFS_v4, DQN_agent_NoFS_v4, 10, 'env_NoFS_v4', 'DQN_agent_NoFS_v4{}'.format(episodes))
 
         env_v5 = train_agent.make_env('ALE/SpaceInvaders-v5', True)
         DQN_agent_v5 = DQNAgent(INPUT_SHAPE, env_v5.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
         DQN_agent_v5.load_model(episodes, 'DQN_agent_v5')
-        play(env_v5, DQN_agent_v5, 5, 'env_v5', 'DQN_agent_v5')
+        play(env_v5, DQN_agent_v5, 10, 'env_v5', 'DQN_agent_v5{}'.format(episodes))
         
         DDQN_agent_v4 = agent = DQNAgent(INPUT_SHAPE, env_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
         DDQN_agent_v4.load_model(episodes, 'DDQN_agent_v4')
-        play(env_v4, DDQN_agent_v4, 5, 'env_v4', 'DDQN_agent_v4')
+        play(env_v4, DDQN_agent_v4, 10, 'env_v4', 'DDQN_agent_v4{}'.format(episodes))
 
         DDQN_agent_Det_v4 = DQNAgent(INPUT_SHAPE, env_Det_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
         DDQN_agent_Det_v4.load_model(episodes, 'DDQN_agent_Det_v4')
-        play(env_Det_v4, DDQN_agent_Det_v4, 5, 'env_Det_v4', 'DDQN_agent_Det_v4')
+        play(env_Det_v4, DDQN_agent_Det_v4, 10, 'env_Det_v4', 'DDQN_agent_Det_v4{}'.format(episodes))
 
         DDQN_agent_NoFS_v4 = DQNAgent(INPUT_SHAPE, env_NoFS_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
         DDQN_agent_NoFS_v4.load_model(episodes, 'DDQN_agent_NoFS_v4')
-        play(env_NoFS_v4, DDQN_agent_NoFS_v4, 5, 'env_NoFS_v4', 'DDQN_agent_NoFS_v4')
+        play(env_NoFS_v4, DDQN_agent_NoFS_v4, 10, 'env_NoFS_v4', 'DDQN_agent_NoFS_v4{}'.format(episodes))
 
         DDQN_agent_v5 = DQNAgent(INPUT_SHAPE, env_v5.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
         DDQN_agent_v5.load_model(episodes, 'DDQN_agent_v5')
-        play(env_v5, DDQN_agent_v5, 5, 'env_v5', 'DDQN_agent_v5')
+        play(env_v5, DDQN_agent_v5, 10, 'env_v5', 'DDQN_agent_v5{}'.format(episodes))
 
     ################################################################################################################################################################
 
@@ -147,42 +147,42 @@ if (test):
             env_v4 = train_agent.make_env('SpaceInvaders-v4', True)
             DQN_agent_v4 = DQNAgent(INPUT_SHAPE, env_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
             DQN_agent_v4.load_model(episodes, 'DQN_agent_v4')
-            play(env_v4, DQN_agent_v4, 5, 'env_v4', 'DQN_agent_v4')
+            play(env_v4, DQN_agent_v4, 10, 'env_v4', 'DQN_agent_v4{}'.format(episodes))
         elif (agent == 'DQNv4Det'):
             env_Det_v4 = train_agent.make_env('SpaceInvadersDeterministic-v4', True)
             DQN_agent_Det_v4 = DQNAgent(INPUT_SHAPE, env_Det_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
             DQN_agent_Det_v4.load_model(episodes, 'DQN_agent_Det_v4')
-            play(env_Det_v4, DQN_agent_Det_v4, 5, 'env_Det_v4', 'DQN_agent_Det_v4')
+            play(env_Det_v4, DQN_agent_Det_v4, 10, 'env_Det_v4', 'DQN_agent_Det_v4{}'.format(episodes))
         elif (agent == 'DQNv4NoFS'):
             env_NoFS_v4 = train_agent.make_env('SpaceInvadersNoFrameskip-v4', True)
             DQN_agent_NoFS_v4 = DQNAgent(INPUT_SHAPE, env_NoFS_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
             DQN_agent_NoFS_v4.load_model(episodes, 'DQN_agent_NoFS_v4')
-            play(env_NoFS_v4, DQN_agent_NoFS_v4, 5, 'env_NoFS_v4', 'DQN_agent_NoFS_v4')
+            play(env_NoFS_v4, DQN_agent_NoFS_v4, 10, 'env_NoFS_v4', 'DQN_agent_NoFS_v4{}'.format(episodes))
         elif (agent == 'DQNv5'):
             env_v5 = train_agent.make_env('ALE/SpaceInvaders-v5', True)
             DQN_agent_v5 = DQNAgent(INPUT_SHAPE, env_v5.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DQNCnn)
             DQN_agent_v5.load_model(episodes, 'DQN_agent_v5')
-            play(env_v5, DQN_agent_v5, 5, 'env_v5', 'DQN_agent_v5')
+            play(env_v5, DQN_agent_v5, 10, 'env_v5', 'DQN_agent_v5{}'.format(episodes))
         elif (agent == 'DDQNv4'):
             env_v4 = train_agent.make_env('SpaceInvaders-v4', True)
             DDQN_agent_v4 = agent = DQNAgent(INPUT_SHAPE, env_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
             DDQN_agent_v4.load_model(episodes, 'DDQN_agent_v4')
-            play(env_v4, DDQN_agent_v4, 5, 'env_v4', 'DDQN_agent_v4')
+            play(env_v4, DDQN_agent_v4, 10, 'env_v4', 'DDQN_agent_v4{}'.format(episodes))
         elif (agent == 'DDQNv4Det'):
             env_Det_v4 = train_agent.make_env('SpaceInvadersDeterministic-v4', True)
             DDQN_agent_Det_v4 = DQNAgent(INPUT_SHAPE, env_Det_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
             DDQN_agent_Det_v4.load_model(episodes, 'DDQN_agent_Det_v4')
-            play(env_Det_v4, DDQN_agent_Det_v4, 5, 'env_Det_v4', 'DDQN_agent_Det_v4')
+            play(env_Det_v4, DDQN_agent_Det_v4, 10, 'env_Det_v4', 'DDQN_agent_Det_v4{}'.format(episodes))
         elif (agent == 'DDQNv4NoFS'):
             env_NoFS_v4 = train_agent.make_env('SpaceInvadersNoFrameskip-v4', True)
             DDQN_agent_NoFS_v4 = DQNAgent(INPUT_SHAPE, env_NoFS_v4.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
             DDQN_agent_NoFS_v4.load_model(episodes, 'DDQN_agent_NoFS_v4')
-            play(env_NoFS_v4, DDQN_agent_NoFS_v4, 5, 'env_NoFS_v4', 'DDQN_agent_NoFS_v4')
+            play(env_NoFS_v4, DDQN_agent_NoFS_v4, 10, 'env_NoFS_v4', 'DDQN_agent_NoFS_v4{}'.format(episodes))
         elif (agent == 'DDQNv5'):
             env_v5 = train_agent.make_env('ALE/SpaceInvaders-v5', True)
             DDQN_agent_v5 = DQNAgent(INPUT_SHAPE, env_v5.action_space.n, device, BUFFER_SIZE, BATCH_SIZE, GAMMA, LR, TAU, UPDATE_EVERY, UPDATE_TARGET, DDQNCnn)
             DDQN_agent_v5.load_model(episodes, 'DDQN_agent_v5')
-            play(env_v5, DDQN_agent_v5, 5, 'env_v5', 'DDQN_agent_v5')
+            play(env_v5, DDQN_agent_v5, 10, 'env_v5', 'DDQN_agent_v5{}'.format(episodes))
 
 ################################################################################################################################################################
 

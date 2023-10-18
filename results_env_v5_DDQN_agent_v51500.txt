@@ -1,0 +1,10 @@
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 1 | Iteration Duration: 54.63s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 2 | Iteration Duration: 54.91s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 3 | Iteration Duration: 54.69s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 4 | Iteration Duration: 54.69s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 5 | Iteration Duration: 54.86s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 6 | Iteration Duration: 54.83s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 7 | Iteration Duration: 54.91s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 8 | Iteration Duration: 54.37s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 9 | Iteration Duration: 53.37s | Score: 285.0
+Env: env_v5 | Agent: DDQN_agent_v51500 | Iteration: 10 | Iteration Duration: 52.73s | Score: 285.0

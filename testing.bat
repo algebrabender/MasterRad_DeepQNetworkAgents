@@ -1,1 +1,1 @@
-venv\Scripts\activate & python main.py test 22500 DDQNv4
+venv\Scripts\activate & python main.py test 1500 & python main.py test 4500 & python main.py test 22500 DQNv4Det & python main.py test 22500 DDQNv4 
